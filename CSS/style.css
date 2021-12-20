@@ -4,10 +4,14 @@
   --link-hover: grey;
   --secondary-color: white;
   --main-text-color: #000;
-  --primary-font: "Gotham", sans-serif;
+  --primary-font: "Gotham", sans-serif, 100;
   --secondary-font: "Gotham", sans-serif;
 
   --white-space: 1rem;
+}
+
+html {
+  font-family: var(--primary-font);
 }
 
 body {

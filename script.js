@@ -43,13 +43,13 @@ function handleData(louisiana) {
     const clone = template.cloneNode(true);
     //     //4. populate with data
     clone.querySelector("h1").textContent = obj.name;
-    clone.querySelector("h2").textContent = obj.artist;
+    // clone.querySelector("h2").textContent = obj.artist;
 
     clone.querySelector("#img1").src = obj.img1_url;
 
-    clone.querySelector("p").textContent = obj.about;
-    clone.querySelector("h3").textContent = obj.year;
-    clone.querySelector("#exhibition").textContent = obj.exhibition;
+    // clone.querySelector("p").textContent = obj.about;
+    // clone.querySelector("h3").textContent = obj.year;
+    // clone.querySelector("#exhibition").textContent = obj.exhibition;
     // clone.querySelector("#img1").textContent = obj.img1;
     // clone.querySelector("#img2").textContent = obj.img2;
 
