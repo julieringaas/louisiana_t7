@@ -35,6 +35,11 @@ body {
   margin-bottom: 20vh;
 }
 
+h1 {
+  font-size: 5rem;
+  text-transform: uppercase;
+}
+
 /*Navigation*/
 
 /*dropdown*/
@@ -217,10 +222,13 @@ footer {
 #links_footer {
   margin-bottom: 10vh;
   list-style: none;
+  margin-left: 10vw;
+  line-height: 3;
 }
 
 .webshop_link {
   font-size: 3rem;
+  padding: 0px;
 }
 .webshop-style {
   font-size: 3rem;
@@ -281,6 +289,18 @@ main {
   font-family: var(--secondary-font);
 }
 
+/*Styling articles in list view*/
+
+.listview {
+  margin-left: 5vw;
+  margin-top: 15vh;
+}
+
+.link:hover {
+  color: red;
+  cursor: pointer;
+}
+
 /*Product view*/
 
 .productmain {
@@ -315,6 +335,11 @@ main {
   .nav {
     visibility: hidden;
   }
+
+  ul {
+    margin-left: 18vw;
+  }
+
   nav {
     display: grid;
     grid-template-columns: 1fr;
@@ -358,7 +383,6 @@ main {
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
     height: 30vh;
-    background-color: red;
   }
 
   #li_contact {
@@ -380,6 +404,7 @@ main {
     background-color: black;
     padding: 0px;
     padding-bottom: 5vh;
+    margin-top: 10vh;
   }
 
   #links_footer {
@@ -583,6 +608,7 @@ footer {
   height: 48vh;
   margin: 0px;
   padding: 0px;
+  margin-top: 10vh;
 }
 .footer_container {
   margin-top: 10vh;
@@ -746,5 +772,21 @@ footer {
 
   .listh1 {
     font-family: var(--secondary-font);
+  }
+
+  .listview {
+    margin-left: 0vw;
+    margin-top: 2vh;
+  }
+
+  .navbar_container {
+    visibility: hidden;
+  }
+
+  .listnav {
+    visibility: hidden;
+  }
+  .nav {
+    visibility: hidden;
   }
 }

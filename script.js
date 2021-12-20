@@ -43,6 +43,9 @@ function handleData(louisiana) {
     const clone = template.cloneNode(true);
     //     //4. populate with data
     clone.querySelector("h1").textContent = obj.name;
+    clone
+      .querySelector(".link")
+      .setAttribute("href", "product.html?id=" + obj._id);
     // clone.querySelector("h2").textContent = obj.artist;
 
     clone.querySelector("#img1").src = obj.img1_url;
@@ -60,3 +63,5 @@ function handleData(louisiana) {
 }
 
 //Note - Show only H1 and #img1 on this page//
+
+//Adding functions for links//

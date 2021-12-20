@@ -8,28 +8,65 @@
     <link rel="stylesheet" href="CSS/style.css" />
   </head>
   <body>
-    <main></main>
-    <template>
-      <artlcle>
-        <h1>{name}</h1>
-        <!-- <h2>{artist}</h2>
+    <header>
+      <nav>
+        <div class="navbar_container">
+          <a class="logo" href="index.html">
+            <img class="logo" src="/img/Louisiana_logo.png" alt="logo"
+          /></a>
+          <a class="listnav" href="#"> EXHIBITIONS</a>
+          <a class="listnav" href="#"> WHAT'S ON</a>
+          <a class="listnav" href="#"> CONTACT</a>
+        </div>
+
+        <!-- dropdown menu -->
+        <div class="dropdown1">
+          <div class="dropbtn1">
+            <div class="stroke1"></div>
+            <div class="stroke2"></div>
+            <div class="stroke3"></div>
+          </div>
+          <div class="dropdown-content1">
+            <a class="dropdownlinks" href="#"> EXHIBITIONS</a>
+            <a class="dropdownlinks" href="#"> WHAT'S ON</a>
+            <a class="dropdownlinks" href="#"> CONTACT</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <template>
+        <artlcle class="listview">
+          <h1>{name}</h1>
+          <!-- <h2>{artist}</h2>
         <p>{about}</p>
         <h3>{year}</h3>
         <p id="exhibition">exhibition</p> -->
-        <img id="img1" src="" alt="{img}" width="500" height="auto" />
-        <!-- <img id="img2" src="" alt="{img2}" /> -->
-      </artlcle>
-    </template>
+          <a class="link" href="#"
+            ><img id="img1" src="" alt="{img}" width="700" height="auto"
+          /></a>
+          <!-- <img id="img2" src="" alt="{img2}" /> -->
+        </artlcle>
+      </template>
+    </main>
+    <footer>
+      <img class="logo_footer" src="/img/Louisiana_logo.svg" alt="logo" />
+      <div class="footer_container">
+        <ul>
+          <li class="li_contact"><strong>Contact</strong></li>
+          <li class="li_contact">MAIL@LOUISIANA.DK</li>
+          <li class="li_contact">+45 49190719</li>
+        </ul>
+        <ul id="links_footer">
+          <li><a class="footer-style" href="#"> EXHIBITIONS</a></li>
+          <li><a class="footer-style" href="#"> WHAT'S ON</a></li>
+          <li><a class="footer-style" href="#"> CONTACT</a></li>
+        </ul>
+        <div class="webshop_link">
+          <a class="webshop-style" href="#"> WEBSHOP &#8594;</a>
+        </div>
+      </div>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>
-
-<!-- 
-about: "<span id=\"docs-internal-guid-2f5e3bae-7fff-db1a-368d-af41bb21dc7d\"><span style=\"font-size: 11pt; font-family: Arial; color: rgb(17, 17, 17); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Louisiana has worked through a substantial body of posthumous material on paper from the hand of the Danish artist Troels Wörsel (1950-2018). Works which has never been exhibited before.</span></span>"
-artist: "Troels Wörsel"
-exhibition: false
-img: ['61c08e9df701f46000001de4']
-img2: ['61c08e9df701f46000001de4']
-name: "Troels Wörsel"
-year: 2021
-_id: "61c08eaaf701f46000001de6" -->
