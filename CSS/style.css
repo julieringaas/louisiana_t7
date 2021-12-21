@@ -10,6 +10,11 @@
   --white-space: 1rem;
 }
 
+#img1:hover {
+  width: 750px;
+  transition: all 0.4s ease;
+}
+
 html {
   font-family: var(--primary-font);
 }
@@ -21,6 +26,19 @@ body {
 
 .logo {
   width: 20vw;
+}
+
+p {
+  font-weight: 200;
+}
+
+.readmore {
+  color: black;
+  text-decoration: underline;
+}
+
+.readmore:hover {
+  font-weight: 400;
 }
 
 .bg {

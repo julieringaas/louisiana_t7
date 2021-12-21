@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The collection</title>
+    <title>Product site</title>
+    <meta name="robots" content="noindex, nofollow">
     <link rel="stylesheet" href="CSS/style.css" />
   </head>
   <body>
@@ -36,14 +37,28 @@
       </nav>
     </header>
     <main class="productmain">
+    
+        <template>
+        <article>
+<h1 class="name">{name}</h1>
+<h2 class="artist">{artist}</h2>
+        <p class="description">{about}</p>
+        <h3 class="year">{year}</h3>
+        <!-- <p class="exhibition">exhibition</p> -->
+        <img id="img1" src="" alt="{img}" width="700" height="auto"
+          />
+          <img id="img2" src="" alt="{img}" width="700" height="auto"
+          />
+        </article>
+    </template>
 
-<div class="information"><h1>Collection name</h1>
+<!-- <div class="information"><h1>Collection name</h1>
 <p class="Artist">Artist</p>
 <p class="Description">This collection is from 2018 when blabla</p>
 <p class="Year">2018</p>
-<p class="Active now">Yes</p></div>
+<p class="Active now">Yes</p></div> -->
 
-<img class="productimg"
+<!-- <img class="productimg"
 src="/img/2.png"
 alt="collection"
 Width="500"
@@ -60,7 +75,7 @@ height="auto">
 src="/img/2.png"
 alt="collection"
 Width="500"
-height="auto"></div> 
+height="auto"></div>  -->
 
     </main>
     <footer>
@@ -78,6 +93,6 @@ height="auto"></div>
           <a class="webshop-style" href="#"> WEBSHOP &#8594;</a></div></div>
       
     </footer>
-    <script src="script.js"></script>
+    <script src="products.js"></script>
   </body>
 </html>

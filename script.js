@@ -49,19 +49,15 @@ function handleData(louisiana) {
     // clone.querySelector("h2").textContent = obj.artist;
 
     clone.querySelector("#img1").src = obj.img1_url;
-
-    // clone.querySelector("p").textContent = obj.about;
-    // clone.querySelector("h3").textContent = obj.year;
-    // clone.querySelector("#exhibition").textContent = obj.exhibition;
-    // clone.querySelector("#img1").textContent = obj.img1;
-    // clone.querySelector("#img2").textContent = obj.img2;
+    clone.querySelector("h2").textContent = obj.artist;
+    clone.querySelector("p").textContent = obj.about;
+    clone.querySelector("h3").textContent = obj.year;
+    //clone.querySelector("#exhibition").textContent = obj.exhibition;
+    clone.querySelector("#img1").textContent = obj.img1;
+    //clone.querySelector("#img2").textContent = obj.img2;
 
     //     //5. append it to the DOM
     const mainEl = document.querySelector("main");
     mainEl.appendChild(clone);
   });
 }
-
-//Note - Show only H1 and #img1 on this page//
-
-//Adding functions for links//
